@@ -1,0 +1,2014 @@
+.body_center{
+    margin-left:auto;    /* 左側マージンを自動的に空ける */
+    margin-right:auto;   /* 右側マージンを自動的に空ける */
+    text-align:left;     /* 中身を左側表示に戻す */
+    width: 1280px;         /* 幅を決定する */
+  }
+
+  .body{
+    margin:0px;          /* ページ全体のmargin */
+    padding:0px;         /* ページ全体のpadding */
+    text-align:center;   /* 下記のautoに未対応用のセンタリング */
+  }
+
+/* ヘッダー */
+header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* ロゴ */
+header h1{
+    margin-top: 16px;
+    margin-left: 53px;
+    width: 124px;
+    height: 48px;
+}
+
+header h1 img{
+    width: 100%;
+}
+
+.burger{
+    display: none;
+}
+
+.burger_menu{
+    display: none;
+}
+
+/* ナビ */
+
+header nav ul{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 50px;
+    text-align: center;
+    width: 544px;
+    height: 41px;
+}
+
+header nav span{
+    color: #192F60;
+    font-size: 16px;
+    font-family: "平成角ゴシック Std";
+    margin-left: 24px;
+    display:  table-cell;
+}
+
+nav li a{
+    font-size: 13px;
+    font-family: "Neue Haas Grotesk Text Pro";
+    text-align: center
+}
+
+/* TEL */
+.phone{
+    margin-top: 12px;
+    margin-right: 45px;
+    color: #192F60;
+    width: 203px;
+    height: 52px;
+}
+
+.phone p{
+    margin-top: 4px;
+    margin-left: 46px;
+    font-family: "平成角ゴシック Std";
+    font-size: 16px;
+}
+
+.phone span{
+    margin-left: 13px;
+    font-size: 20px;
+    font-family: "Neue Haas Grotesk Text Pro";
+    letter-spacing:0.1em;
+}
+
+/* お問い合わせ */
+
+
+.email{
+    background-color:#20868A;
+    width: 128px;
+    height: 80px;
+}
+
+.email img{
+    margin-top: 13px;
+    margin-right: 49px;
+    margin-left: 49px;
+}
+
+.email p{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-right: 22px;
+    margin-left: 22px;
+    margin-bottom: 15px;
+    background: #20868A;
+    font-family: "平成角ゴシック Std";
+}
+
+
+.background{
+    background-image: url(https://webdesignerrin.github.io/product/fv-img01.png) ;
+    width: 1280px;
+    height: 755px;
+}
+
+.heading{
+    position: relative; top: 260px; left:113px;
+    background-color: #ffffff;
+    width: 913px;
+    height: 86px;
+}
+
+.heading_text {
+    color: #192F60;
+    font-size: 60px;
+    font-family: "平成角ゴシック Std";
+    padding: 13px 16px; 
+    letter-spacing : 0.244em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.heading_text1{
+    position: relative; top: 8px;
+    background-color: #ffffff;
+    width: 914px;
+    height: 86px;
+}
+
+.heading_text1 h2{
+    color: #192F60;
+    font-size: 60px;
+    font-family: "平成角ゴシック Std";
+    padding: 13px 16px; 
+    line-height: 1;
+    white-space: nowrap;
+}
+
+
+.heading_text_sub{
+    background-color: #ffffff;
+    width: 347px;
+    height: 44px;
+    position: relative; top: 24px;
+}
+
+.heading_text_sub h2{
+    color: #192F60;
+    font-family: "平成角ゴシック Std";
+    font-size: 18px;
+    letter-spacing : 0.1em;
+    line-height: 1;
+    padding: 13px 16px; 
+    white-space: nowrap;
+}
+
+.background_phone{
+    display: flex;
+    position: relative; top: 512px; left:113px;
+    gap: 80px;
+    color: #ffffff;
+    width: 570px;
+}
+
+.background_phone_text{
+    background-color: #192F60;
+    width: 240px;
+    height: 56px;
+}
+
+.background_phone_text span{
+    font-size: 24px;
+    letter-spacing:0.1em;
+    margin-top: 1px;
+    line-height: 0.75;
+}
+
+.background_phone_text p{
+    margin-top: 4px;
+    margin-left: 24px;
+    font-family: "平成角ゴシック Std";
+    font-size: 16px;
+    margin-left: 56px;
+}
+
+.background_phone_text i{
+    margin-top: 11px;
+    margin-left: 16px;
+}
+
+
+.background_news{
+    position: relative; top: 78%; left:113px;
+    background-color: #ffffff;
+    opacity: 95%;
+    width: 1150px;
+    height: 80px;
+    display: flex;
+}
+
+.background_news_text{
+    font-size: 22px;
+    font-family: "Neue Haas Grotesk Text Pro";
+    margin-top: 24px;
+    margin-left: 44px;
+}
+
+
+
+.background_news_sub {
+    position: relative;
+}
+.background_news_sub a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+
+.background_news_sub p{
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 900px;
+    height: 80px;
+}
+
+
+.background_news_sub p span{
+    margin-left: 32px;
+
+}
+
+
+
+
+.btn{
+    width: 240px;
+    height: 56px;
+    margin-left: 10px;
+    background-color: #20868A;
+}
+
+.btn > a{
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    text-decoration: none; 
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.btn br{
+   display: none;
+}
+
+.btn i{
+    margin-left: 10px;
+}
+
+
+/* セクション2 */
+
+.concept{
+    width: 1000px;
+}
+
+
+.concept_bg{
+    background-image: url(https://webdesignerrin.github.io/product/concept.png) ;
+    width: 1000px;
+    height: 680px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-left: 114.2px;
+}
+
+
+.pc {
+    padding-top:50px;
+    margin-left:200px;
+    width: 950px;
+
+}
+
+.pc img{
+    float: left;
+    margin-top: 16px;
+}
+
+.concept_text{
+    float:left;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+.concept_sub {
+    margin-top: 40px;
+    width: 900px;
+}
+
+.concept_text h1{
+    background-color: #192F60;
+    color: #ffffff;
+    width: 460px;
+    height: 54px;
+    padding: 13px 16px;
+}
+
+.concept_text h2{
+    background-color: #192F60;
+    color: #ffffff;
+    width: 306px;
+    height: 54px;
+    padding: 13px 16px;
+    margin-top: 12px;
+}
+
+.quality{
+     font-size: 28px;
+     font-family: "平成角ゴシック Std";
+     letter-spacing:0.1em;
+     line-height: 1;
+     white-space: nowrap;
+}
+
+.price{
+    font-size: 28px;
+    font-family: "平成角ゴシック Std";
+    letter-spacing:0.1em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.average{
+    color: #192F60;
+    font-size: 20px;
+    font-family: "平成角ゴシック Std";
+    letter-spacing:0.1em;
+    margin-top: 32px;
+}
+
+.average span{
+    font-size: 60px;
+    font-family: "Neue Haas Grotesk Text Pro";
+    letter-spacing:0.1em;
+}
+
+.concept_sub{
+    font-size: 14px;
+    font-family: "平成角ゴシック Std";
+    color: #333333;
+    width: 950px;
+    height: 66px;
+}
+
+/* 「詳しく見る」の設定 */
+
+.btn2{
+    width: 240px;
+    height: 40px;
+    margin-left: 458px;
+    background-color: #fff;
+    border: 2px solid #192F60;
+    }
+ 
+.btn2 > a{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #192F60;
+}
+
+
+.btn2 br{
+    display: none;
+ }
+ 
+ .btn2 i{
+     margin-left: 10px;
+ }
+ 
+
+
+
+
+/* セクション3 */
+.section3{
+    /* background-image: url(../images/bg.png); */
+    background-image: url(https://webdesignerrin.github.io/product/bg.png);
+
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width:  1280px;
+    box-sizing: border-box; 
+}
+
+
+.section3_sub{
+    margin-top: -150px;
+    width: 1280px;
+}
+
+
+.section3_text h1{
+    color: #192F60;
+    font-family: "平成角ゴシック Std";
+    font-size: 20px;
+    width: 240px;
+    height: 20px;
+    letter-spacing:0.1em;
+    line-height: 1;
+    margin-top: 100px;
+    margin-left: 121px;
+    white-space: nowrap;
+}
+
+.section3_text h2{
+    background-color: #192F60;
+    width: 296px;
+    height: 54px;
+    margin-top: 16px;
+    margin-left: 113px;
+}
+
+.section3_02_text h2{
+    color: #192F60;
+    font-size: 24px;
+    font-family: "平成角ゴシック Std";
+    margin-top: 24px;
+    margin-left: 11px;
+    letter-spacing : 0.15em;
+}
+
+.section3_02_text p{
+    font-family: "平成角ゴシック Std";
+    font-size: 14px;
+    color: #333333;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.section3_03_text h2{
+    color: #192F60;
+    font-size: 24px;
+    font-family: "平成角ゴシック Std";
+    margin-top: 24px;
+    margin-left: 9px;
+    letter-spacing : 0.15em;
+}
+
+.section3_03_text p{
+    font-family: "平成角ゴシック Std";
+    font-size: 14px;
+    color: #333333;
+    margin-top: 11px;
+    margin-left: 9px;
+}
+
+
+.section3_01{
+    display: flex;
+    margin-left: 672px;
+}
+
+.section3_02{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 568px;
+}
+
+.section3_03{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 471px;
+}
+
+.lego{
+    color: #ffffff;
+    font-family: "平成角ゴシック Std";
+    font-size: 28px;
+    letter-spacing:0.1em;
+    line-height: 1;
+    padding: 13px 16px 13px 15px;
+}
+
+.section3_text p{
+    color: #192F60;
+    font-family: "平成角ゴシック Std";
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 113px;
+    width: 372px;
+    height: 40px;
+}
+
+.section3_01 h1{
+    color: #EFF1F4;
+    font-size: 100px;
+    font-family: "Neue Haas Grotesk Text Pro";
+}
+
+.section3_02 h1{
+    color: #EFF1F4;
+    font-size: 100px;
+    font-family: "Neue Haas Grotesk Text Pro";
+}
+
+.section3_03 h1{
+    color: #EFF1F4;
+    font-size: 100px;
+    font-family: "Neue Haas Grotesk Text Pro";
+}
+
+.section3_01_text h2{
+    color: #192F60;
+    font-size: 24px;
+    font-family: "平成角ゴシック Std";
+    margin-top: 24px;
+    margin-left: 18px;
+    letter-spacing : 0.15em;
+}
+
+.section3_01_text p{
+    font-family: "平成角ゴシック Std";
+    font-size: 14px;
+    color: #333333;
+    margin-top: 11px;
+    margin-left: 18px;
+}
+
+.option{
+    text-indent: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    width: 0px;
+}
+
+
+/* セクション4 */
+
+.service{
+    width: 1140px;
+    height: 703px;
+    margin-left: 113px;
+    position: relative;
+    top: -690px;
+}
+
+
+.service_text{
+    background-image: url(https://webdesignerrin.github.io/product/service.png);
+    background-repeat: no-repeat;
+    width: 335px;
+    height: 614px;
+    margin-top: 682px;
+    margin-left: 800px;
+}
+
+.service_text_0{
+    position: relative;
+    top: -380px;
+    left: 50px;
+    width: 800px;
+}
+
+.service_text_1{
+    background-color: #192F60;
+    width: 443px;
+    height: 54px;
+}
+
+.service_text_1 h1{
+    color: #ffffff;
+    font-family: "平成角ゴシック Std";
+    font-size: 28px;
+    letter-spacing:0.1em;
+    line-height: 1;
+    padding: 13px 16px;
+    white-space: nowrap;
+}
+
+
+.service_text_2{
+    width: 950px;
+    height: 40px;
+    font-size: 14px;
+    font-family: "平成角ゴシック Std";
+    margin-top: 40px;
+}
+
+.service_sub_text{
+    margin-top: -330px;
+    margin-left: 50px;
+}
+
+.service_sub ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.service_sub h2{
+    font-family:"Neue Haas Grotesk Text P";
+    font-size: 11px;
+    line-height: 20px;
+    color: #192F60;
+}
+
+.service_sub p{
+
+    font-size: 14px;
+    font-family: "平成角ゴシック Std";
+    line-height: 26px;
+    color: #333333;
+    width: 276px;
+    height: 92px;
+}
+
+.service_sub li{
+    width: 30%;
+}
+
+.content-title_main{
+   background-color: #ffffff;
+   width: 250px;
+   height: 40px;
+}
+
+.content-title_main h1{
+   font-size: 20px;
+   font-family: "平成角ゴシック Std";
+   color: #192F60;
+   padding: 10px 16px;
+   letter-spacing:0.1em;
+   line-height: 1;
+   white-space: nowrap;
+}
+
+
+.content-title_main1{
+    background-color: #ffffff;
+    width: 166px;
+    height: 40px;
+ }
+
+ .content-title_main1 h1{
+    font-size: 20px;
+    font-family: "平成角ゴシック Std";
+    color: #192F60;
+    padding: 10px 16px;
+    letter-spacing:0.1em;
+    line-height: 1;
+    white-space: nowrap;
+ }
+
+
+ .content-title_main2{
+    background-color: #ffffff;
+    width: 171px;
+    height: 40px;
+ }
+
+ .content-title_main2 h1{
+    font-size: 20px;
+    font-family: "平成角ゴシック Std";
+    color: #192F60;
+    padding: 10px 16px;
+    letter-spacing:0.1em;
+    line-height: 1;
+    white-space: nowrap;
+ }
+
+.content-title1{
+    font-size: 11px;
+    font-family: "Neue Haas Grotesk Text Pro";
+    color: #192F60;
+    margin-left: 32px;
+}
+
+.detail_text{
+    display: flex;
+    width: 1200px;
+}
+
+
+.btn3{
+    width: 240px;
+    height: 40px;
+    margin-top: -550px;
+    margin-left: 200px;
+    background-color: #fff;
+    border: 2px solid #192F60;
+    }
+ 
+.btn3 > a{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #192F60;
+}
+
+.btn3 br{
+    display: none;
+ }
+ 
+ .btn3 i{
+     margin-left: 10px;
+ }
+ 
+
+.btn4{
+    width: 240px;
+    height: 40px;
+    margin-top: -550px;
+    margin-left: 140px;
+    background-color: #fff;
+    border: 2px solid #192F60;
+    }
+ 
+.btn4 > a{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #192F60;
+}
+
+.btn4 br{
+    display: none;
+ }
+ 
+.btn4 i{
+     margin-left: 10px;
+ }
+ 
+
+
+.btn5{
+    width: 240px;
+    height: 40px;
+    margin-top: -550px;
+    margin-left: 140px;
+    background-color: #fff;
+    border: 2px solid #192F60;
+    }
+ 
+.btn5 > a{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #192F60;
+}
+
+.btn5 br{
+    display: none;
+ }
+ 
+.btn5 i{
+     margin-left: 10px;
+ }
+ 
+
+
+
+/* セクション5 */
+.work_bg{
+    background-image: url(https://webdesignerrin.github.io/product/works.png);
+    background-repeat: no-repeat;
+    width: 343.8px;
+    height: 525px;
+    position: absolute;
+    top: 3050px;
+    margin-left: 114.2px;
+}
+
+.work_text h1{
+    background-color: #192F60;
+    width: 443px;
+    height: 54px;
+    margin-top: 80px;
+    margin-left: 687.8px;
+}
+
+.work_text1{
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "平成角ゴシック Std";
+    padding: 13px 16px;
+    letter-spacing : 0.1em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.work_text2{
+    color: #333333;
+    font-size: 14px;
+    font-family: "平成角ゴシック Std";
+    width: 950px;
+    height: 14px;
+    margin-top: 40px;
+    margin-left: 180.8px;
+}
+
+.your-class{
+    background-image: url(https://webdesignerrin.github.io/product/arrow.png);
+    background-repeat: no-repeat;
+    width: 168px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.slick-area{
+    display: flex;
+    align-items:flex-end;
+}
+
+.slick-area{
+    padding: 0 56px;
+    margin-left: -250px;
+}
+
+.client{
+    background-color: #ffffff;
+    width: 281px;
+    height: 40px;
+    padding: 8px 17px 6px 16px;
+    margin-left: 408px;
+    margin-top: 50px;
+}
+
+.client h1{
+    font-family: "平成角ゴシック Std";
+    font-size: 20px;
+    letter-spacing : 0.1em;
+    line-height: 1;
+    color: #192F60;
+    white-space: nowrap;
+    margin-top: 50px;
+}
+
+.work_sub_text p{
+    width: 528px;
+    height: 92px;
+    font-family: "平成角ゴシック Std";
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 424px;
+}
+
+
+.btn6{
+    width: 240px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 563px;
+    background-color: #fff;
+    border: 2px solid #192F60;
+    }
+ 
+.btn6 > a{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #192F60;
+}
+
+.btn6 br{
+    display: none;
+ }
+ 
+ .btn6 i{
+     margin-left: 10px;
+ }
+ 
+
+.btn7{
+    width: 240px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 563px;
+    background-color: #AEB6C7;
+    }
+ 
+.btn7 > a{
+    display: block;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.btn7 br{
+    display: none;
+ }
+ 
+ .btn7 i{
+     margin-left: 10px;
+ }
+ 
+
+
+.your-class {
+    text-align: center;
+    display: block;
+}
+
+.your-class img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* セクション6 */
+
+
+.blog_leaf{
+    background-image: url(https://webdesignerrin.github.io/product/blog_bg.png);
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 515px;
+    position: relative;
+    top: 280px;
+    left: 0px;
+}
+
+.blog_img{
+    background-image: url(https://webdesignerrin.github.io/product/blog.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: 880px;
+    width: 400px;
+    height: 409px;
+}
+
+.blog_list{
+    display: flex;
+    margin: 25px 95px 55px 95px;
+    padding-top: 5px;
+}
+
+.blog1,.blog2{
+    color: #2D2D2D;
+    font-size: 16px;
+    font-family: "Quicksand";
+    line-height: 27.2px;
+    margin-top: 8px;
+}
+
+.section6_1{
+    background-color: #ffffff;
+    width: 950px;
+    height: 408px;
+    position: relative;
+    top: -200px;
+    left: 170px;
+}
+
+.blog2{
+    margin-left: 32px;
+    text-decoration:underline;
+}
+
+
+
+/* セクション7 */
+
+.contact_text
+{
+    background-image: url(https://webdesignerrin.github.io/product/contact01.png);
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 316px;
+    position: absolute;
+    top: 4280px;
+    color: #ffffff;
+}
+
+.contact_text h1
+{
+    position: relative;
+    top: 80px;
+    left: 486px;
+    font-size: 24px;
+    font-family: "平成角ゴシック Std";
+    width: 450px;
+}
+
+.btn12
+{
+    width: 240px;
+    height: 56px;
+    background-color: #20868A;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.btn12 > a
+{
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    text-decoration: none; 
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.btn12 br{
+    display: none;
+ }
+ 
+ .btn12 i{
+     margin-left: 10px;
+ }
+ 
+
+
+    .phone3_1{
+        display: flex;
+    }
+
+    .phone3{
+        margin-top: 100px;
+        margin-left: 408px;
+        background-color: #192F60;
+        width: 240px;
+        height: 56px;
+    }
+    
+    .phone3 p
+    {
+        margin-top: 4px;
+        margin-left: 46px;
+        font-family: "平成角ゴシック Std";
+        font-size: 16px;
+        color: #ffffff;
+    }
+    
+    .phone3 span
+    {
+        margin-left: 13px;
+        font-size: 20px;
+        font-family: "Neue Haas Grotesk Text Pro";
+        letter-spacing:0.1em;
+        color: #ffffff;
+    }
+
+    .phone3 i
+    {
+        color: #ffffff;
+    }
+    
+
+
+/* フッター */
+.footer{
+    background-color: #192F60;
+    width: 1280px;
+    height: 221px;
+    position: relative;
+    top: 160px;
+    left: 0px;
+}
+
+.footer_text img
+{
+    position: relative;
+    top: 40px;
+    left: 600px;
+}
+
+.footer_text h1
+{
+    position: relative;
+    top: 72px;
+    left: 497px;
+    font-family: "平成角ゴシック Std";
+    font-size: 16px;
+    color: #ffffff;
+    width: 440px;
+}
+
+
+.footer_text p
+{
+    position: relative;
+    top: 110px;
+    left: 585px;
+    font-family: "平成角ゴシック Std";
+    font-size: 11px;
+    color: #AEB6C7;
+    width: 300px;
+}
+
+/* スマホ版 */
+
+@media screen and ( max-width:390px )
+{
+
+    .body{
+        overflow-x: auto;
+        }
+
+	
+   /* ヘッダー */
+   header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 80px;
+}
+
+   /* ロゴ */
+   header h1{
+    margin-top: 25.2px;
+    margin-left: 17.4px;
+    width: 120.5px;
+    height: 29.45px;
+}
+
+
+
+
+/* ヘッダー（ナビ） */
+   header nav ul
+   {
+    display: none;
+   }
+
+   .phone{
+    display: none;
+   }
+
+   .email{
+    display: none;
+   }
+
+   .background_phone{
+    display:block;
+    left: 75px;
+    width: 250px;
+}
+
+/* ハンバーガーメニュー */
+.burger{
+    /* background-image: url(../images/burger.png); */
+    background-image: url(https://webdesignerrin.github.io/product/burger.png);
+    width: 40px;
+    height: 40px;
+    background-size: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 26px 0 0 160px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.burger_menu{
+    color:#000000;
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    display: none;
+}
+
+.burger_menu.is-active{
+    display: flex;
+}
+
+.burger.is-active{
+    background-image: url(https://webdesignerrin.github.io/product/close.png);
+}
+
+.burger_menu h1{
+    margin-top: 25.2px;
+    margin-left: 17px;
+    width: 120.5px;
+    height: 29.45px;
+}
+
+.burger_menu_text{
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 590px;
+    margin-top: 80px;
+    margin-left: -126px;
+}
+
+
+.burger_menu_text nav ul{
+    display: block;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+}
+
+.burger_menu_text nav ul li{
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+
+.burger_menu_text nav span{
+    color: #192F60;
+    font-size: 16px;
+    font-family: "平成角ゴシック Std";
+    margin-left: 70px;
+    display:  flex;
+    text-align: center;
+    margin-top: 3px;
+    width: 150px;
+}
+
+.burger_menu_text nav li a{
+    font-size: 13px;
+    font-family: "Neue Haas Grotesk Text Pro";
+    text-align: center
+}
+
+
+/* TEL */
+.burger_sub{
+    display: block;
+    margin-top: 400px;
+    margin-left: -250px;
+
+}
+
+.burger_phone{
+    margin-top: 12px;
+    margin-right: 0px;
+    margin-left: 10px;
+    color: #192F60;
+    width: 208px;
+    height: 49px;
+    background-color: #ffffff;
+}
+
+.burger_phone p{
+    margin-top: 4px;
+    margin-left: 15px;
+    font-family: "平成角ゴシック Std";
+    font-size: 16px;
+}
+
+.burger_phone span{
+    margin-left: 13px;
+    font-size: 20px;
+    font-family: "Neue Haas Grotesk Text Pro";
+    letter-spacing:0.1em;
+}
+
+/* お問い合わせ */
+.burger_email{
+    background-color:#20868A;
+    width: 240px;
+    height: 56px;
+    margin-top: 40px;
+}
+
+
+.burger_email p{
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-right: 0;
+    margin-left: 60px;
+    margin-bottom: 0;
+    font-family: "平成角ゴシック Std";
+}
+
+.burger_email i{
+    margin-left: 5px;
+}
+
+
+
+
+/* メイン */
+
+.main{
+    width: 390px;
+}
+
+.body_center{
+    width: 390px;         /* 幅を決定する */
+  }
+
+.heading_text {
+    color: #192F60;
+    font-size: 22px;
+    font-family: "平成角ゴシック Std";
+    padding: 13px 16px; 
+    letter-spacing : 0.244em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.heading_text1{
+    position: relative; top: 8px; left:0px;
+    background-color: #ffffff;
+    width: 340px;
+    height: 48px;
+}
+
+.heading_text1 h2{
+    color: #192F60;
+    font-size: 22px;
+    font-family: "平成角ゴシック Std";
+    padding: 13px 16px; 
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.heading_text_sub{
+    background-color: #ffffff;
+    width: 277px;
+    height: 40px;
+    position: relative; top: 24px;
+}
+
+.heading_text_sub h2{
+    color: #192F60;
+    font-family: "平成角ゴシック Std";
+    font-size: 14px;
+    letter-spacing : 0.1em;
+    line-height: 1;
+    padding: 13px 16px; 
+    white-space: nowrap;
+}
+
+
+.heading{
+    position: relative; top: 297px; left:8px;
+    background-color: #ffffff;
+    width: 340px;
+    height: 48px;
+}
+
+.btn{
+    width: 240px;
+    height: 56px;
+    margin-left: 0px;
+    background-color: #20868A;
+}
+
+.btn > a{
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    text-decoration: none; 
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.background_news{
+    position: relative; top: 620px; left:8px;
+    background-color: #ffffff;
+    opacity: 95%;
+    width: 360px;
+    height: 125px;
+    display: flex;
+    margin-top: -80px;
+}
+
+.btn{
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+
+.background_news_sub p{
+    margin-top: 30px;
+    margin-left: 32px;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+
+.background_news_sub p span{
+    margin-left: 0px;
+}
+
+.background{
+    background-image: url(https://webdesignerrin.github.io/product/fv-img01.png) ;
+    background-repeat:  no-repeat;
+    background-position:-600px 0;
+    width:  100%;
+    box-sizing: border-box; 
+}
+
+.background_phone_text{
+    margin-left: -16px;
+}
+
+.btn{
+    margin-left: -16px;
+}
+
+.background{
+    width: 390px;
+
+}
+
+/* セクション2 */
+
+.concept{
+    width: 100%;
+}
+
+
+.concept_bg{
+    background-image: url(https://webdesignerrin.github.io/product/concept.png) ;
+    width: 350px;
+    height: 680px;
+    background-repeat: no-repeat;
+    margin-top: 220px;
+    margin-left: 8.8px;
+}
+
+.pc {
+    padding-top:150px;
+    margin-left:15px;
+    width: 350px;
+}
+
+.pc img{
+    width: 100%;
+    float: none;
+    margin-top: -35px;
+    margin-left: -10px;
+    }
+
+.concept_text{
+    float:none;
+    margin-top: 50px;
+    margin-left: 15px;
+    }
+
+
+
+.quality{
+    font-size: 20px;
+    letter-spacing:0.1em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.concept_text h1{
+    margin-left: -26px;
+    width: 338px;
+    height: 46px;
+}
+
+.concept_text h2{
+    width: 228px;
+    height: 46px;
+    margin-top: 12px;
+    margin-left: -26px;
+}
+
+.average{
+    font-size: 16px;
+}
+
+.average span{
+    font-size: 36px;
+}
+
+
+
+
+
+
+.price{
+    font-size: 20px;
+    font-family: "平成角ゴシック Std";
+    letter-spacing:0.1em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.concept_text{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.concept_sub{
+    width: 360px;
+    height: 144px;
+    line-height: 26px;
+    margin-left: -20px;
+}
+
+.btn2{
+    margin-top: 40px;
+    margin-left: 55px;
+    }
+ 
+
+/* セクション3 */
+
+/* セクション3 */
+
+
+.section3{
+    top: 170px;
+    background-position: -650px 0;
+    width: 0px;
+}
+
+.section3_text h1{
+    font-size: 18px;
+    width: 216px;
+    height: 18px;
+    letter-spacing:0.1em;
+    line-height: 2;
+    margin-top: 40px;
+    margin-left: 72px;
+}
+
+.section3_text h2{
+    width: 221px;
+    height: 46px;
+    margin-top: 22px;
+    margin-left: 72px;
+}
+
+.section3_sub{
+    width: 100%;
+}
+
+.lego{
+    font-size: 20px;
+}
+
+.section3_text p{
+    color: #333333;
+    margin-top: 40px;
+    margin-left: 4px;
+    width: 357px;
+    height: 40px;
+}
+
+.section3_text p br{
+    display: none;
+}
+
+.section3_01{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 15px;
+}
+
+.section3_02{
+    display: flex;
+    margin-top: 47px;
+    margin-left: 15px;
+}
+
+.section3_03{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 15px;
+}
+
+.section3_01_text h2{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.section3_02_text h2{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 0px;
+}
+
+.section3_03_text h2{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 0px;
+}
+
+.section3_01_text p{
+    margin-top: 20px;
+    margin-left: -90px;
+    width: 330px;
+}
+
+.section3_02_text p{
+    margin-top: 20px;
+    margin-left: -110px;
+    width: 330px;
+}
+
+.section3_03_text p{
+    margin-top: 20px;
+    margin-left: -110px;
+    width: 330px;
+}
+
+.section3_01_text p br{
+    display: none;
+}
+
+.section3_02_text p br{
+    display: none;
+}
+
+.section3_03_text p br{
+    display: none;
+}
+
+.option{
+    background-color:#D3DBEC;
+    width: 390px;
+    height: 120px;
+    position: relative; top: 220px; left:0px;
+    text-indent: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+
+/* セクション4 */
+
+.service{
+    width: 250px;
+}
+
+.service_text_2{
+    width: 360px;
+    height: 92px;
+    margin-top: 40px;
+    margin-left: -10px;
+    line-height: 1.8;
+}
+
+.service_text_0{
+    position: absolute;
+    top: 0px;
+    left: -90px;
+    width: 340px;
+}
+
+.service_text_1{
+    background-color: #192F60;
+    width: 325px;
+    height: 46px;
+}
+
+.service_text_1 h1{
+    font-size: 20px;
+    line-height: 1.75; 
+    white-space: nowrap;
+}
+
+.service_text{
+    background-image: url(https://webdesignerrin.github.io/product/service.png);
+    background-repeat: no-repeat;
+    margin-top: 1000px;
+    margin-left: -30px;
+    width: 100%;
+}
+
+.service_sub_text{
+    margin-top: -330px;
+    margin-left: 38px;
+}
+
+.service_sub{
+    width: 100%;
+    position: relative;
+    top: -90px;
+}
+
+
+.service_sub ul{
+    display: block;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: -125px;
+    width: 350px;
+}
+
+.service_sub p{
+    line-height: 1.85;
+    color: #333333;
+    width: 276px;
+    height: 92px;
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-bottom: 100px;
+}
+
+.detail_text{
+    display: block;
+    width: 0px;
+}
+
+
+.btn3{
+    margin-top: -750px;
+    margin-left: 65px;
+    margin-bottom: 430px;
+    z-index: 100;
+}
+
+
+.btn4{
+    margin-top: 0px;
+    margin-left: 65px;
+    margin-bottom: 430px;
+ }
+     
+    
+.btn5{
+    margin-top: 0px;
+    margin-left: 65px;
+}
+
+
+ 
+ .content-title_main h1{
+    font-size: 18px;
+    padding: 12px 27px;
+    letter-spacing:0.1em;
+    line-height: 1;
+    white-space: nowrap;
+ }
+
+.content-title1{
+    width: 200px;
+} 
+
+ 
+
+/* セクション5 */
+
+.work_bg{
+    background-image: url(https://webdesignerrin.github.io/product/works.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4500px;
+    left: -110px;
+}
+
+.work_text h1{
+    width: 315px;
+    height: 46px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.work_text1{
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+
+.work_text2{
+    width: 340px;
+    height: 66px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+.your-class{
+    background-image: url(https://webdesignerrin.github.io/product/arrow.png);
+    background-repeat: no-repeat;
+    margin-top: 38px;
+    margin-left: 95px;
+}
+
+.client{
+    width: 256px;
+    height: 38px;
+    padding: 10px 17px 10px 16px;
+    margin-left: 57px;
+    margin-top: 60px;
+}
+
+.client h1{
+    font-size: 18px;
+    white-space: nowrap;
+    margin-top: 0px;
+}
+
+
+.work_sub_text p{
+    width: 330px;
+    height: 144px;
+    margin-top: 50px;
+    margin-left: 0px;
+    line-height: 1.85;
+}
+
+.btn6{
+    margin-top: 40px;
+    margin-left: 53px;
+    }
+
+.btn7{
+     margin-top: 32px;
+     margin-left: 53px;
+     }
+
+
+/* セクション6 */
+
+
+.blog_leaf{
+    background-image: url(https://webdesignerrin.github.io/product/blog_bg.png);
+    background-repeat: no-repeat;
+    width: 390px;
+    height: 515px;
+    position: absolute;
+    top: 5443px;
+    background-position: -900px 0px;
+}
+
+.blog_img{
+    background-image: url(https://webdesignerrin.github.io/product/blog.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 28px;
+    width: 350px;
+}
+
+
+
+.section6_1{
+    width: 330px;
+    height: 615px;
+    position: absolute;
+    top: 5523px;
+    left: 10px;
+}
+
+.blog_list{
+    display: block;
+    margin: 40px 10px 10px 39px;
+    padding-top: 5px;
+}
+
+.blog2{
+    margin-left: 0px;
+    text-decoration:underline;
+}
+
+/* セクション7 */
+
+.contact_text
+{
+    background-image: url(https://webdesignerrin.github.io/product/contact01.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6219px;
+    color: #ffffff;
+    background-position: -950px 0;
+    width:  100%;
+    box-sizing: border-box; 
+}
+
+.contact_text h1
+{
+    position: relative;
+    top: 80px;
+    left: 46px;
+    font-size: 18px;
+    font-family: "平成角ゴシック Std";
+    width: 300px;
+}
+
+
+
+.phone3_1{
+    display:block;
+}
+
+.phone3{
+    margin-top: 100px;
+    margin-left: 75px;
+}
+
+
+.btn12
+{
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+
+
+
+
+
+
+
+
+/*フッター */
+.footer{
+    background-color: #192F60;
+    width: 100%;
+    height: 219px;
+    position: absolute;
+    top: 6534px;
+}
+
+.footer_text img
+{
+    position: relative;
+    top: 49.2px;
+    left: 135.4px;
+}
+
+.footer_text h1
+{
+    top: 56px;
+    left: 32px;
+    font-size: 14px;
+    width: 310px;
+    white-space: nowrap;
+}
+
+
+.footer_text p
+{
+    position: relative;
+    top: 98px;
+    left: 97px;
+    font-family: "平成角ゴシック Std";
+    font-size: 11px;
+    color: #AEB6C7;
+    width: 210px;
+}
+
+
+
+
+
+
+}
